@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const SITE = "somewhere-quite";
-const API_BASE = import.meta.env.VITE_VISITOR_API_URL ?? "https://healing-corner.vercel.app";
+const API_BASE = import.meta.env.VITE_VISITOR_API_URL ?? "https://jimmytheorangecat.com";
 const NUM_KEY = `visitor-num-${SITE}`;
 const TICKED_KEY = `visitor-ticked-${SITE}`;
 
